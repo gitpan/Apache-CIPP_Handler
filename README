@@ -5,7 +5,7 @@ Copyright (c) 1998-1999 dimedis GmbH, Germany
 This library ist free software; you can redistribute it and/or
 modify it under the same terms as Perl itself.
 
-$Id: README,v 1.4 1999/01/26 11:00:19 joern Exp $
+$Id: README,v 1.1.1.1 1999/05/07 13:37:21 joern Exp $
 
 
 WHAT IS Apache::CIPP_Handler?

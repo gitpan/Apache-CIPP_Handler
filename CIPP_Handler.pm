@@ -1,7 +1,7 @@
 package Apache::CIPP_Handler;
 
-$VERSION = "0.08";
-$REVISION = q$Revision: 1.15 $;
+$VERSION = "0.0.9";
+$REVISION = q$Revision: 1.2 $;
 
 use strict;
 
@@ -442,7 +442,7 @@ sub has_cached_error {
 		my $input = new FileHandle;
 		open ($input, $err_filename) or
 			die "can't read $err_filename";
-		$self->{error} = join ('', <$input>);
+		$self->{'error'} = join ('', <$input>);
 		close $input;
 
 		$self->{status}->{cached_error} = 1;
@@ -518,7 +518,7 @@ Jörn Reder, joern@dimedis.de
 
 Copyright 1998-1999 dimedis GmbH, All Rights Reserved
 
-This library ist free software; you can redistribute it and/or modify
+This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
 
 =head1 SEE ALSO

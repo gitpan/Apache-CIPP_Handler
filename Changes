@@ -1,5 +1,8 @@
 Revision history for Perl extension Apache::CIPP_Handler.
 
+0.09  Fri Feb 26 16:40:53 1999
+	- some code cosmetics to suppress perl warnings in -w mode
+
 0.08  Tue Feb 16 12:37:00 1999
 	- explicit perl syntax check via 'perl -c' inserted again
 	  (this IS necessary, because use strict errors are NOT
